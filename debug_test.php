@@ -5,7 +5,7 @@ $test = new Tests\Feature\ContactFormTest('test_contact_form_submission_success'
 
 $ref = new ReflectionMethod($test, 'setUp');
 $ref->setAccessible(true);
-
+ 
 try {
     $ref->invoke($test);
     $test->test_contact_form_submission_success();
