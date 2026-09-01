@@ -1,7 +1,6 @@
 @import 'tailwindcss';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
 
 /* ============================================
    BMG DESIGN SYSTEM - Berkah Media Gemilang
@@ -60,8 +59,6 @@
     --font-mono: 'JetBrains Mono', 'Consolas', monospace;
 }
 
-/* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap');
 
 /* ============================================
    BASE STYLES
