@@ -5,13 +5,13 @@
     </button>
 
     <div class="flex flex-col items-center gap-8">
-        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="#home">Home</a>
-        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="#layanan">Layanan</a>
-        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="#tentang">Tentang</a>
-        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="#portofolio">Portofolio</a>
-        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="#contact">Contact Us</a>
+        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="{{ route('home') }}">Home</a>
+        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="{{ route('layanan') }}">Layanan</a>
+        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="{{ route('tentang') }}">Tentang</a>
+        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="{{ route('home') }}#portofolio">Portofolio</a>
+        <a class="mobile-nav-link font-display text-2xl text-bmg-on-primary uppercase tracking-wider hover:text-bmg-primary-fixed-dim transition-colors" href="{{ route('home') }}#contact">Contact Us</a>
 
-        <a class="mt-4 bg-bmg-primary text-bmg-on-primary text-label-bold px-8 py-4 border-2 border-bmg-on-primary uppercase tracking-wider" href="#contact">
+        <a class="mt-4 bg-bmg-primary text-bmg-on-primary text-label-bold px-8 py-4 border-2 border-bmg-on-primary uppercase tracking-wider" href="{{ route('home') }}#contact">
             Get Started
         </a>
     </div>

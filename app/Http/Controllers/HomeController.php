@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Http\Requests\ContactFormRequest;
 
 class HomeController extends Controller
@@ -13,6 +12,22 @@ class HomeController extends Controller
     public function index()
     {
         return view('welcome');
+    }
+
+    /**
+     * Display the Layanan page.
+     */
+    public function layanan()
+    {
+        return view('layanan');
+    }
+
+    /**
+     * Display the Tentang Kami page.
+     */
+    public function tentang()
+    {
+        return view('tentang');
     }
 
     /**
