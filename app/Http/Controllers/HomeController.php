@@ -31,6 +31,14 @@ class HomeController extends Controller
     }
 
     /**
+     * Display the privacy policy page.
+     */
+    public function privacy()
+    {
+        return view('privacy');
+    }
+
+    /**
      * Handle contact form submission.
      */
     public function submitContact(ContactFormRequest $request)

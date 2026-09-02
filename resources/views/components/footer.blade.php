@@ -35,7 +35,7 @@
 
             <div class="text-body-md text-bmg-surface-variant opacity-80 mt-auto pt-8 md:pt-0">
                 © {{ date('Y') }} Berkah Media Gemilang.<br>
-                <a class="hover:text-bmg-primary-container transition-all underline decoration-2 underline-offset-4" href="#">Privacy Policy</a>
+                <a class="hover:text-bmg-primary-container transition-all underline decoration-2 underline-offset-4" href="{{ route('privacy') }}">Privacy Policy</a>
             </div>
         </div>
     </div>
