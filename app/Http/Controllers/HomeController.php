@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Http\Requests\ContactFormRequest;
 
 class HomeController extends Controller
@@ -13,6 +12,22 @@ class HomeController extends Controller
     public function index()
     {
         return view('welcome');
+    }
+
+    /**
+     * Display the portfolio page.
+     */
+    public function portfolio()
+    {
+        return view('portfolio');
+    }
+
+    /**
+     * Display the contact page.
+     */
+    public function contact()
+    {
+        return view('contact');
     }
 
     /**

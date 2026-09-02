@@ -16,11 +16,11 @@
         <div class="flex flex-col gap-4">
             <span class="text-label-bold text-bmg-primary-container uppercase">Navigate</span>
             <div class="flex flex-col gap-2">
-                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="#home">Home</a>
-                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="#layanan">Layanan</a>
-                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="#tentang">Tentang</a>
-                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="#portofolio">Portofolio</a>
-                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="#contact">Contact Us</a>
+                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="{{ route('home') }}">Home</a>
+                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="{{ route('home') }}#layanan">Layanan</a>
+                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="{{ route('home') }}#tentang">Tentang</a>
+                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="{{ route('portfolio') }}">Portofolio</a>
+                <a class="text-body-md text-bmg-surface-variant opacity-80 hover:text-bmg-primary-container hover:-translate-y-0.5 transition-all w-max inline-block" href="{{ route('contact') }}">Contact Us</a>
             </div>
         </div>
 
